@@ -1,0 +1,127 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+  text-align: center;
+}
+input,
+button,
+img {
+  border: none;
+  outline: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  vertical-align: middle;
+  margin: 0 auto;
+}
+.container {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+.clear {
+  clear: both;
+}
+.site-header {
+  height: 100%;
+  background-color: #fff;
+}
+.site-header .logo,
+.site-header .nav {
+  float: left;
+}
+.site-header .logo {
+  margin-top: 0;
+}
+.site-header .logo img {
+  height: 110px;
+}
+.site-header .nav {
+  margin-left: 50px;
+  margin-top: 15px;
+}
+.site-header .nav a {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 5px;
+  border-bottom: 2px solid #0099ff;
+}
+.site-header .nav a.active {
+  border-color: #ffe20d;
+}
+.site-header .search-area {
+  float: right;
+  margin-top: 15px;
+}
+.site-header .search-area form {
+  display: block;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.site-header .search-area input,
+.site-header .search-area button {
+  display: block;
+  height: 100%;
+}
+.site-header .search-area .input,
+.site-header .search-area .btn-submit {
+  height: 35px;
+}
+.site-header .search-area .input {
+  padding: 5px 10px;
+  font-size: 15px;
+  border: 1px solid #ddd;
+}
+.site-header .search-area .btn-submit {
+  position: relative;
+  width: 35px;
+  cursor: pointer;
+}
+.site-header .search-area .btn-submit input {
+  color: #f00;
+}
+.site-header .search-area .btn-submit span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  line-height: 35px;
+  font-size: 20px;
+}
+.links {
+  background-color: #d6d6d6;
+  padding: 20px 0;
+}
+.links .item {
+  float: left;
+  width: 33.33%;
+  padding: 0 5px;
+}
+.links .item p {
+  line-height: 25px;
+}
+.site-footer {
+  background-color: #ccc;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #CCC;
+  color: #eee;
+}
